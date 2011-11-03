@@ -32,7 +32,9 @@ or Rails3.1
       watch(%r{^app/assets/javascripts/(.+)\.bean$}) {|m| "#{m[1]}.bean"}
     end
 
-config/coffee-dipper.yaml
+Configuration example:
+`config/coffee-dipper.yaml`
+
     appplication.js.coffee:
       - hoge.bean
       - huga.bean
